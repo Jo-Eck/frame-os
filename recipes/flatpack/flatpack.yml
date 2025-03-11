@@ -5,8 +5,6 @@ modules:
       # If no repo information is specified, Flathub will be used by default
       install:
         - org.mozilla.firefox
-        - com.spotify.Client
-        - com.discordapp.Discord
- #     remove:
- #       - org.gnome.eog
+        - com.github.tchx84.Flatseal
+
     user: {} # Also add Flathub user repo, but no user packages
