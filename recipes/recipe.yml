@@ -18,4 +18,8 @@ modules:
     repository: "git@github.com:jo-eck/dotfiles.git"
     all-users: true
 
+  - type: script
+    scripts:
+      - oh-my-zsh.sh
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
