@@ -13,4 +13,9 @@ modules:
   - from-file: files/files.yml
   - from-file: rpm/rpm.yml
   - from-file: flatpack/flatpack.yml
+
+  - type: chezmoi
+    repository: "git@github.com:jo-eck/dotfiles.git"
+    all-users: true
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
